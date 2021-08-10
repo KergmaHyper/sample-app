@@ -1,0 +1,4 @@
+rep:
+https://github.com/KergmaHyper/sample-app.git
+shell command:
+bash ./sample-app.sh

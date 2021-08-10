@@ -1,0 +1,11 @@
+trigger:
+ Build after other projects are built
+ Projects to watch
+ "BuildAppJob"
+
+shell command:
+ if curl http://80.240.25.243:5050/ | grep "You are calling me from"; then 
+	exit 0
+ else
+	exit 1
+ fi
