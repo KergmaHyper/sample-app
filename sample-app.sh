@@ -1,8 +1,8 @@
 #!/bin/bash
-docker stop samplerunning
-docker rm samplerunning
+#docker stop samplerunning
+#docker rm samplerunning
 
-rm -rfd tempdir 
+#rm -rfd tempdir 
 
 
 mkdir tempdir
